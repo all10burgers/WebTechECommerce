@@ -6,10 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"]; 
   
     // Connect to the database 
-    $host = "localhost"; 
-    $dbname = "shp"; 
-    $username_db = "root"; 
-    $password_db = ""; 
+    $host = "webtechecommerce.mysql.database.azure.com"; 
+    $dbname = "new_schema"; 
+    $username_db = "rootuser"; 
+    $password_db = "default123!"; 
   
     try { 
         $db = new PDO( 
