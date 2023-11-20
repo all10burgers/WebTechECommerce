@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Hash the password 
     $hashed_password = password_hash($password, PASSWORD_BCRYPT); 
     $host = "webtechecommerce.mysql.database.azure.com"; 
-    $dbname = "webtechecommerce"; 
+    $dbname = "new_schema"; 
     $username_db = "rootuser"; 
     $password_db = "default123!"; 
     try { 
