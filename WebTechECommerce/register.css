@@ -1,6 +1,9 @@
+title {
+  color: black;
+  }
 
 body { 
-    background-color: green; 
+    background-color: beige; 
   } 
   .container { 
     display: flex; 
@@ -13,7 +16,8 @@ body {
   form { 
     display: flex; 
     flex-direction: column; 
-    align-items: center; 
+    align-items: center;
+    color: black 
   } 
   label { 
     display: block; 
@@ -30,8 +34,8 @@ body {
     border-radius: 5px; 
   } 
   input[type="submit"] { 
-    background-color: #4caf50; 
-    color: white; 
+    background-color: red; 
+    color: black; 
     padding: 10px 20px; 
     border: none; 
     border-radius: 5px; 
@@ -39,6 +43,6 @@ body {
   } 
     
   input[type="submit"]:hover { 
-    background-color: #45a049; 
+    background-color: red; 
   }
   
