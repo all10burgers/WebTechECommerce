@@ -5,11 +5,12 @@ if(isset($_POST["send"]) ){
     $email = $_POST['email'];
     $message = $_POST['textarea'];
 
-    $mailTo = "juskidn2@yahoo.com";
-    $headers = $email." Sent Message From Ecommerce Website";
+    $mailTo = "awesome.kr50@gmail.com";
     $txt = "You have recieved an email from ".$name.".\n\n".$message;
+    $headers = $email." Sent Message From Ecommerce Website"."\r\n Message: ".$txt;
+    
     $subject="Support";
-    mail($mailTo,$subject,$txt,$headers);
+    mail($mailTo,$subject,$headers);
     header("Location: login.html?mailsend");
 }
 
