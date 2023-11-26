@@ -1,3 +1,7 @@
+title {
+    color: black;
+    }
+
 body { 
     color: beige; 
   } 
@@ -13,7 +17,7 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    color: white 
+    color: black 
   } 
   label { 
     display: block; 
