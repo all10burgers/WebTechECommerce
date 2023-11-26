@@ -3,7 +3,7 @@ title {
   }
 
 body { 
-    background-color: beige; 
+    color: beige; 
   } 
   .container { 
     display: flex; 
@@ -17,7 +17,7 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    color: black 
+    color: white 
   } 
   label { 
     display: block; 
@@ -34,8 +34,8 @@ body {
     border-radius: 5px; 
   } 
   input[type="submit"] { 
-    background-color: red; 
-    color: black; 
+     
+    color: white; 
     padding: 10px 20px; 
     border: none; 
     border-radius: 5px; 

@@ -1,0 +1,42 @@
+body { 
+    color: beige; 
+  } 
+  .container { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  } 
+    
+  form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    color: white 
+  } 
+  label { 
+    display: block; 
+    margin-bottom: 5px; 
+  } 
+    
+  input[type="text"],  
+  input[type="password"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  } 
+  input[type="submit"] { 
+     
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+    
+  input[type="submit"]:hover { 
+    background-color: red; 
+  }
