@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>User Profile</title>
+        <link rel="stylesheet" href="user_profile.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>User Profile</h2>
+            <form action="update_profile.php" method="post">
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="<?php echo $currentUsername; ?>" readonly>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="<?php echo $currentUserEmail; ?>" readonly>
+    
+                
+                <label for="new_password">New Password:</label>
+                <input type="password" id="new_password" name="new_password">
+    
+                <label for="confirm_password">Confirm New Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password">
+    
+                
+                <label for="address">New Address:</label>
+                <textarea id="address" name="address"></textarea>
+    
+                
+                <label for="credit_card">New Credit Card:</label>
+                <input type="text" id="credit_card" name="credit_card">
+    
+                <input type="submit" value="Update Profile">
+            </form>
+        </div>
+    </body>
+</html>
