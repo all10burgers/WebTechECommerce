@@ -1,0 +1,87 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+.header{
+    height: 70px;
+    background-color: rgb(21, 20, 20);
+    text-align: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 16px;
+}
+.left{
+
+width: 40%;
+
+}
+.right{
+    width: 45%;
+    
+    height: 50vh;
+    
+}
+#inTouch{
+    font-size: 25px;
+    letter-spacing: .45px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+
+}
+.description {
+    width: 70%;
+    margin-bottom: 25px;
+}
+.find{
+    margin-bottom: 30px;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: rgb(8, 8, 8);
+    text-decoration-thickness: 2px;
+   
+}
+.email{
+    margin-top: 25px;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: rgb(12, 12, 12);
+    text-decoration-thickness: 2px;
+
+}
+#name{
+    margin-top: 35px;
+    width: 90%;
+    margin-left: 20px;
+margin-bottom: 15px;
+height: 20px;
+}
+#email{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    height: 20px;
+
+
+}
+#textarea{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+#sendbtn{
+   margin-left: 20px;
+}
