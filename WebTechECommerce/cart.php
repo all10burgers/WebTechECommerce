@@ -47,10 +47,10 @@ echo $user['name']; ?> Shopping Cart</h1>
 	<nav> 
 		<ul> 
 			<li> 
-				<a href="shop.html">Home</a> 
+				<a href="store.php">Home</a> 
 			</li> 
 			<li> 
-				<a href="shop.html">Products</a> 
+				<a href="store.php">Products</a> 
 			</li> 
 			<li> 
 				<a href= 

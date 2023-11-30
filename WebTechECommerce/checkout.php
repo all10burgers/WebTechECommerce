@@ -101,10 +101,10 @@
 		<nav> 
 			<ul> 
 				<li> 
-					<a href="shop.php">Home</a> 
+					<a href="store.php">Home</a> 
 				</li> 
 				<li> 
-					<a href="shop.php">Shop</a> 
+					<a href="store.php">Shop</a> 
 				</li> 
 				<li> 
 					<a href="cart.php">Cart</a> 
