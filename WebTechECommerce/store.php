@@ -26,7 +26,7 @@ if (isset($_POST["add_to_cart"])) {
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<title>GFG Shopping Web Application</title> 
+		<title>Group 5 Shopping Web Application</title> 
 		<link rel="stylesheet"
 				href="store.css"> 
 	</head> 
@@ -140,7 +140,7 @@ if (isset($_POST["add_to_cart"])) {
 			</section> 
 		</main> 
 		<footer> 
-			<p>&copy; 2023 GFG Shopping Web Application</p> 
+			<p>&copy; E-commerce site By Group 5</p> 
 		</footer> 
 		<script src="store.php"></script> 
 	</body> 
