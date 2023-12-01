@@ -9,12 +9,12 @@
 </head> 
 <style> 
 	body { 
-		background-color: #ffffff; 
+		background-color: beige; 
 		font-family: Arial, sans-serif; 
 	} 
 	
 	header { 
-		background-color: green; 
+		background-color: blue; 
 		color: #ffffff; 
 		padding: 20px; 
 	} 
@@ -46,13 +46,13 @@
 	} 
 	
 	h1 { 
-		color: green; 
+		color: blue; 
 		font-size: 32px; 
 		margin-bottom: 20px; 
 	} 
 	
 	h2 { 
-		color: green; 
+		color: blue; 
 		font-size: 24px; 
 		margin-bottom: 10px; 
 	} 
@@ -74,7 +74,7 @@
 	} 
 	
 	input[type="submit"] { 
-		background-color: green; 
+		background-color: blue; 
 		color: #ffffff; 
 		padding: 10px 20px; 
 		border: none; 
@@ -88,7 +88,7 @@
 	} 
 	
 	footer { 
-		background-color: green; 
+		background-color: blue; 
 		color: #ffffff; 
 		padding: 20px; 
 		text-align: center; 
@@ -109,11 +109,6 @@
 				<li> 
 					<a href="cart.php">Cart</a> 
 				</li> 
-				<li> 
-					<a href= 
-"mailto:adarsh.raj.2004@outlook.com">Contact</a> 
-				
-					</li> 
 			</ul> 
 		</nav> 
 	</header> 
@@ -185,7 +180,7 @@
 	</section> 
 
 	<footer> 
-		<p>&copy; Gropu 5 Shopping Web Application</p> 
+		<p>Thanks for shopping with us</p> 
 	</footer> 
 </body> 
 
