@@ -2,18 +2,18 @@ body {
 	margin: 0; 
 	padding: 0; 
 	background-color: black; 
-	color: green; 
+	color: beige; 
 	font-family: Arial, sans-serif; 
 } 
 
 header { 
 	background-color: white; 
-	color: green; 
+	color: beige; 
 	padding: 20px; 
 } 
 
 nav { 
-	background-color: #999999; 
+	background-color: beige; 
 	padding: 10px; 
 } 
 
@@ -31,7 +31,7 @@ nav a {
 } 
 
 nav a:hover { 
-	background-color: green; 
+	background-color: beige; 
 	color: red; 
 } 
 
