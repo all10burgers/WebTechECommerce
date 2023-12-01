@@ -14,14 +14,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $mysqli = new mysqli($host, $username_db, $password_db, $dbname);
 
-// Check the connection
+
     if ($mysqli->connect_error) {
         die("Connection failed: " . $mysqli->connect_error);
     }
 
-// Check if the user exists in the database
+
     $stmt = $mysqli->prepare("SELECT * FROM users WHERE username = ?");
-    $stmt->bind_param("s", $username); // 's' indicates a string, adjust if needed
+    $stmt->bind_param("s", $username); 
     $stmt->execute();
     $result = $stmt->get_result();
     $user = $result->fetch_assoc();
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mysqli->close();
   
     if ($user) { 
-            // Verify the password 
+           
         if (password_verify($password, $user["password"])) { 
                 
             session_start(); 
