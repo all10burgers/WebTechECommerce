@@ -35,7 +35,7 @@ if (isset($_POST["add_to_cart"])) {
 			<h1>Welcome <?php 
 			$user = $_SESSION["user"]; 
 			echo $user["name"]; 
-			?> to GFG Shopping Web Application</h1> 
+			?> to Shopping Web Application</h1> 
 		</header> 
 		<nav> 
 			<ul> 
@@ -51,7 +51,7 @@ if (isset($_POST["add_to_cart"])) {
 				<h2>Products</h2> 
 				<ul> 
 					<li> 
-						<h3>GFG Bag</h3> 
+						<h3>Bag</h3> 
 						<img src= 
 "https://media.geeksforgeeks.org/wp-content/uploads/20230407154213/gfg-bag.jpg"
 							alt="Product 1"> 
@@ -77,7 +77,7 @@ if (isset($_POST["add_to_cart"])) {
 						</form> 
 					</li> 
 					<li> 
-						<h3>GFG T-Shirt</h3> 
+						<h3>T-Shirt</h3> 
 						<img src= 
 "https://media.geeksforgeeks.org/wp-content/uploads/20230407153931/gfg-tshirts.jpg"
 							alt="Product 2"> 
@@ -106,7 +106,7 @@ if (isset($_POST["add_to_cart"])) {
 						</form> 
 					</li> 
 					<li> 
-						<h3>GFG Hoodie</h3> 
+						<h3>Hoodie</h3> 
 						<img src= 
 "https://media.geeksforgeeks.org/wp-content/uploads/20230407153938/gfg-hoodie.jpg"
 							alt="Product 3"> 
