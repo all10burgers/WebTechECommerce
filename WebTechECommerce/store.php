@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="bg-primary text-white text-center p-3">
-        <h1>Welcome <?php echo $_SESSION["user"]["name"]; ?> to Shopping Web Application</h1>
+        <h1>Welcome <?php echo htmlspecialchars($_SESSION["user"]["name"]); ?> to Shopping Web Application</h1>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,7 +48,46 @@
                     </div>
                 </div>
                 <!-- Product 2 -->
-                <!-- ... (Repeat the structure above for each product) -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="ProjPictures/felipepelaquim-Zb6HZX6WHvU-unsplash.jpg" alt="HeadPhones">
+                        <div class="card-body">
+                            <h5 class="card-title">HeadPhones</h5>
+                            <p class="card-text">Over Ear</p>
+                            <p class="card-text"><strong>$20</strong></p>
+                            <form method="post" action="store.php">
+                                <input type="hidden" name="product_id" value="2">
+                                <div class="form-group">
+                                    <label for="product2_quantity">Quantity:</label>
+                                    <input type="number" class="form-control" id="product2_quantity" name="product_quantity" value="" min="0" max="10">
+                                </div>
+                                <button type="submit" name="add_to_cart" class="btn btn-primary">Add to Cart</button>
+                            </form>
+                            <a href="product_review.php?product_id=2" class="btn btn-secondary mt-2">View Reviews</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="ProjPictures/jascent-leung-CubSQS4iYEE-unsplash.jpg" alt="Phone Case">
+                        <div class="card-body">
+                            <h5 class="card-title">Phone Case</h5>
+                            <p class="card-text">Dark Themed Phone Case</p>
+                            <p class="card-text"><strong>$50</strong></p>
+                            <form method="post" action="store.php">
+                                <input type="hidden" name="product_id" value="3">
+                                <div class="form-group">
+                                    <label for="product3_quantity">Quantity:</label>
+                                    <input type="number" class="form-control" id="product3_quantity" name="product_quantity" value="" min="0" max="10">
+                                </div>
+                                <button type="submit" name="add_to_cart" class="btn btn-primary">Add to Cart</button>
+                            </form>
+                            <a href="product_review.php?product_id=3" class="btn btn-secondary mt-2">View Reviews</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
