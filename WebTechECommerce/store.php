@@ -51,11 +51,10 @@ if (isset($_POST["add_to_cart"])) {
 				<h2>Products</h2> 
 				<ul> 
 					<li> 
-						<h3>Bag</h3> 
-						<img src= 
-"https://media.geeksforgeeks.org/wp-content/uploads/20230407154213/gfg-bag.jpg"
+						<h3>Phone Charger</h3> 
+						<img src= "ProjPictures/adam-birkett-1M0omkZlGM4-unsplash.jpg"
 							alt="Product 1"> 
-						<p>Bag with 2 Extra pockets</p> 
+						<p>Standard 3ft Phone Charger</p> 
 						<p><span>$12</span></p> 
 
 						<form method="post" action="store.php"> 
@@ -78,11 +77,10 @@ if (isset($_POST["add_to_cart"])) {
 						<a href="product_review.php?product_id=1">View Reviews</a>
 					</li> 
 					<li> 
-						<h3>T-Shirt</h3> 
-						<img src= 
-"https://media.geeksforgeeks.org/wp-content/uploads/20230407153931/gfg-tshirts.jpg"
+						<h3>HeadPhones</h3> 
+						<img src= "ProjPictures/felipepelaquim-Zb6HZX6WHvU-unsplash.jpg"
 							alt="Product 2"> 
-						<p>100% cotton t-shirts</p> 
+						<p>Over Ear</p> 
 						<p> 
 							<span>$20</span> 
 						</p> 
@@ -108,11 +106,10 @@ if (isset($_POST["add_to_cart"])) {
 						<a href="product_review.php?product_id=2">View Reviews</a>
 					</li> 
 					<li> 
-						<h3>Hoodie</h3> 
-						<img src= 
-"https://media.geeksforgeeks.org/wp-content/uploads/20230407153938/gfg-hoodie.jpg"
+						<h3>Phone Case</h3> 
+						<img src= "ProjPictures/jascent-leung-CubSQS4iYEE-unsplash.jpg"
 							alt="Product 3"> 
-						<p>Black Color Stylish Hoodie</p> 
+						<p>Dark Themed Phone Case</p> 
 						<p> 
 							<span>$50</span> 
 						</p> 
