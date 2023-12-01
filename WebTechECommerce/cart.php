@@ -83,8 +83,9 @@ echo $user['name']; ?> Shopping Cart</h1>
 
 
 				$total = 0; 
-
-				foreach ($_SESSION['cart'] as $product_id => $quantity) { 
+                echo"we got here";
+				foreach ($_SESSION['cart'] as $product_id => $quantity) {
+                    echo"we got herex2"; 
 					$sql = "SELECT * FROM products WHERE id = $product_id"; 
 					$result = $conn->query($sql); 
                     
@@ -102,8 +103,6 @@ echo $user['name']; ?> Shopping Cart</h1>
 						echo "<td>$item_total $</td>"; 
 						echo "</tr>"; 
 					}
-                    else
-                        echo "no item was found" ;
 				} 
 				echo "<tr>"; 
 				echo "<td colspan='3'>Total:</td>"; 
