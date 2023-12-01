@@ -54,7 +54,7 @@ echo $user['name']; ?> Shopping Cart</h1>
 			</li> 
 			<li> 
 				<a href= 
-"mailto:adarsh.raj.2004@outlook.com">Contact Us</a> 
+"mailto:phillipmoore3102@gmail.com">Contact Us</a> 
 			</li> 
 			<li> 
 				<a href="cart.php">Cart</a> 
@@ -72,10 +72,10 @@ echo $user['name']; ?> Shopping Cart</h1>
 					<th>Total </th> 
 				</tr> 
 				<?php 
-				$servername = "localhost"; 
-				$username = "root"; 
-				$password = ""; 
-				$dbname = "shp"; 
+				$servername = "webtechecommerce.mysql.database.azure.com"; 
+				$username = "rootuser"; 
+				$password = "default123!"; 
+				$dbname = "new_schema"; 
 
 				// Create connection 
 				$conn = 
@@ -85,6 +85,8 @@ echo $user['name']; ?> Shopping Cart</h1>
 				if ($conn->connect_error) { 
 					die("Connection failed: " . $conn->connect_error); 
 				} 
+                echo"Connected sccessfully";
+
 
 				$total = 0; 
 
