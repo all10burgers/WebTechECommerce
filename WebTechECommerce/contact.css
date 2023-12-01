@@ -21,73 +21,79 @@ body {
 
 .container {
     width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: auto;
 }
 
 .left, .right {
-    float: left;
     width: 50%;
-    padding: 15px;
+    float: left;
+    padding: 10px;
 }
 
 .left {
-    border-right: 2px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
-.right form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.right {
+    padding-left: 20px;
+}
+
+form {
+    margin-top: 10px;
 }
 
 input[type="text"],
 input[type="email"],
-textarea {
+textarea,
+input[type="file"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-input[type="file"] {
-    border: none;
-    margin-bottom: 10px;
 }
 
 input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
+    display: block;
+    width: auto;
     padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #444;
 }
 
 .find, .email {
-    display: inline-block;
+    display: block;
     margin-top: 10px;
-    text-decoration: none;
-    color: #333;
+    padding: 10px;
     background-color: #ddd;
-    padding: 5px 10px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
     border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 .find:hover, .email:hover {
     background-color: #ccc;
 }
 
-@media (max-width: 768px) {
-    .left, .right {
-        width: 100%;
-        float: none;
-    }
+/* Clearfix for the floating elements */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
