@@ -1,3 +1,23 @@
+<?php 
+session_start(); 
+  
+
+if (isset($_POST["add_to_cart"])) { 
+    
+    $product_id = $_POST["product_id"]; 
+    
+    $product_quantity = $_POST["product_quantity"]; 
+  
+
+    if (!isset($_SESSION["cart"])) { 
+        $_SESSION["cart"] = []; 
+        header("location:cart.php"); 
+    } 
+
+    $_SESSION["cart"][$product_id] = $product_quantity; 
+    header("location:cart.php"); 
+} 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
