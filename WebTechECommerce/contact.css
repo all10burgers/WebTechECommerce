@@ -1,11 +1,13 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
+    margin: 0px;
 }
 .header{
     height: 70px;
-    background-color: rgb(21, 20, 20);
+    background-color: green;
     text-align: center;
+    margin: 0px;
 }
 
 .title{
@@ -23,6 +25,7 @@ body{
     border-style: solid;
     border-radius: 20px;
     padding: 16px;
+    border-color: green;
 }
 .left{
 

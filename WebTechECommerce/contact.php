@@ -27,14 +27,14 @@ if(isset($_POST["send"]) ){
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="header"> Header</div>
+    <div class="header"> </div>
     <div class="title">Contact Us</div>
     <div class="container">
     <div class="left">
         <p id="inTouch">Getting In Touch Is Easy!</p>
-        <p class="description ">Description Will Go Here, Might add something else</p>
-        <a class="find" href="google.com">Find Us Here!</a>
-        <p ><a class="email" href="mailto:someone@example.com">placeholder@random.com</a></p>
+        <p class="description ">Need to reach us? Click the email below or fill out the form on the right.</p>
+        <a class="find" href="https://map.concept3d.com/?id=2028&_gl=1*1dgek45*_ga*ODUxMzk2MTc0LjE2OTk5OTczNTk.*_ga_1ZM4FXT4XW*MTcwMTM5NDA3My4zLjAuMTcwMTM5NDA3My42MC4wLjA.#!ct/0?s/?sbc/">Find Us Here!</a>
+        <p ><a class="email" href="mailto:keenan.ray@my.utsa.edu">keenan.ray@my.utsa.edu</a></p>
 
     </div>
     <div class="right">
