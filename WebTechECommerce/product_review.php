@@ -65,10 +65,10 @@
             <?php
             // Static array of reviews
             $static_reviews = [
-                ["reviewer_name" => "Jane Doe", "review_text" => "I got it for my cousin."],
-                ["reviewer_name" => "John Smith", "review_text" => "It looks great."],
-                ["reviewer_name" => "Alice Johnson", "review_text" => "It feels great."],
-                ["reviewer_name" => "Bob Brown", "review_text" => "Love it."]
+                ["reviewer_name" => "Billy", "review_text" => "I got it for my cousin."],
+                ["reviewer_name" => "Timmy", "review_text" => "It looks great."],
+                ["reviewer_name" => "Jimmy", "review_text" => "It feels great."],
+                ["reviewer_name" => "Lily", "review_text" => "Love it."]
             ];
 
             // Loop through the static reviews and display them
