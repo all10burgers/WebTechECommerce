@@ -7,10 +7,10 @@
 </head> 
 <style> 
 	body { 
-		background-color: black; 
+		background-color: beige; 
 	} 
 	header, nav, main, footer { 
-		background-color: white; 
+		background-color: beige; 
 	} 
 	table { 
 		border-collapse: collapse; 
@@ -27,9 +27,9 @@
 		background-color: #f2f2f2; 
 	} 
 	footer { 
-		background-color: green; 
+		background-color: beige; 
 		margin-top: 348px; 
-		color: black; 
+		color: beige; 
 		max-width: 264px; 
 	
 	} 
@@ -84,8 +84,7 @@ echo $user['name']; ?> Shopping Cart</h1>
 				// Check connection 
 				if ($conn->connect_error) { 
 					die("Connection failed: " . $conn->connect_error); 
-				} 
-                echo"Connected sccessfully";
+				}
 
 
 				$total = 0; 
