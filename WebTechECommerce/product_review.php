@@ -8,7 +8,7 @@
 <body>
     <?php
     // data base 
-    $host = "localhost";
+    $host = "webtechecommerce.mysql.database.azure.com";
     $user = "rootuser"; 
     $pass = "default123!"; 
     $dbname = "new_schema";

@@ -75,6 +75,7 @@ if (isset($_POST["add_to_cart"])) {
 									name="add_to_cart"> 
 								Add to Cart</button> 
 						</form> 
+						<a href="product_review.php?product_id=1">View Reviews</a>
 					</li> 
 					<li> 
 						<h3>T-Shirt</h3> 
@@ -104,6 +105,7 @@ if (isset($_POST["add_to_cart"])) {
 								Add to Cart 
 						</button> 
 						</form> 
+						<a href="product_review.php?product_id=2">View Reviews</a>
 					</li> 
 					<li> 
 						<h3>Hoodie</h3> 
@@ -133,6 +135,7 @@ if (isset($_POST["add_to_cart"])) {
 								Add to Cart 
 							</button> 
 						</form> 
+						<a href="product_review.php?product_id=3">View Reviews</a>
 					</li> 
 								
 					<!-- Add forms for the other products here --> 
