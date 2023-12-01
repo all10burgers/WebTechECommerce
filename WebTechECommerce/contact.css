@@ -1,90 +1,93 @@
-body{
+body {
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
-.header{
-    height: 70px;
-    background-color: green;
+
+.header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    margin: 0px;
+    padding: 10px 0;
 }
 
-.title{
-    font-weight: bold;
-    font-size: 45px;
+.title {
     text-align: center;
-    margin-top: 30px;
+    margin: 20px 0;
+    font-size: 2em;
 }
-.container{
-    margin-top: 50px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    border-style: solid;
-    border-radius: 20px;
-    padding: 16px;
-    border-color: green;
-}
-.left{
 
-width: 40%;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
+.left, .right {
+    float: left;
+    width: 50%;
+    padding: 15px;
 }
-.right{
-    width: 45%;
-    
-    height: 50vh;
-    
-}
-#inTouch{
-    font-size: 25px;
-    letter-spacing: .45px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
 
+.left {
+    border-right: 2px solid #ddd;
 }
-.description {
-    width: 70%;
-    margin-bottom: 25px;
-}
-.find{
-    margin-bottom: 30px;
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: rgb(8, 8, 8);
-    text-decoration-thickness: 2px;
-   
-}
-.email{
-    margin-top: 25px;
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: rgb(12, 12, 12);
-    text-decoration-thickness: 2px;
 
+.right form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#name{
-    margin-top: 35px;
-    width: 90%;
-    margin-left: 20px;
-margin-bottom: 15px;
-height: 20px;
-}
-#email{
-    width: 90%;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    height: 20px;
 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
 
+input[type="file"] {
+    border: none;
+    margin-bottom: 10px;
 }
-#textarea{
-    margin-left: 20px;
-    margin-bottom: 15px;
-    width: 90%;
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
-#sendbtn{
-   margin-left: 20px;
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.find, .email {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.find:hover, .email:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .left, .right {
+        width: 100%;
+        float: none;
+    }
 }
