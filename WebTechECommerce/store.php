@@ -113,7 +113,7 @@ if (isset($_POST["add_to_cart"])) {
     </main>
 
     <footer class="bg-primary text-white text-center p-3">
-        <p>&copy; E-commerce site By Group 5</p>
+        <p>&copy; Group 5</p>
     </footer>
 
     <!-- Bootstrap JS and other necessary scripts -->
