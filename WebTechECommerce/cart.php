@@ -8,7 +8,12 @@
 <style> 
 	body { 
 		background-color: beige; 
-	} 
+	}
+    nav ul { 
+	list-style: none; 
+	margin: 2px; 
+	padding: 0; 
+    }  
 	header, nav, main, footer { 
 		background-color: beige; 
 	} 
@@ -46,19 +51,9 @@ echo $user['name']; ?> Shopping Cart</h1>
 
 	<nav> 
 		<ul> 
-			<li> 
-				<a href="store.php">Home</a> 
-			</li> 
-			<li> 
-				<a href="store.php">Products</a> 
-			</li> 
-			<li> 
-				<a href= 
-"mailto:phillipmoore3102@gmail.com">Contact Us</a> 
-			</li> 
-			<li> 
-				<a href="cart.php">Cart</a> 
-			</li> 
+			<li> <a href="store.php">Home</a> </li> 
+			<li> <a href="store.php">Products</a> </li> 
+			<li> <a href="cart.php">Cart</a> </li> 
 		</ul> 
 	</nav> 
 
