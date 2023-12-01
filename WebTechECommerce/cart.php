@@ -84,11 +84,10 @@ echo $user['name']; ?> Shopping Cart</h1>
 
 				$total = 0; 
 
-				// Loop through items in cart and display in table 
 				foreach ($_SESSION['cart'] as $product_id => $quantity) { 
 					$sql = "SELECT * FROM products WHERE id = $product_id"; 
 					$result = $conn->query($sql); 
-
+                    
 					if ($result->num_rows > 0) { 
 						$row = $result->fetch_assoc(); 
 						$name = $row['name']; 
@@ -102,9 +101,10 @@ echo $user['name']; ?> Shopping Cart</h1>
 						echo "<td>$price $</td>"; 
 						echo "<td>$item_total $</td>"; 
 						echo "</tr>"; 
-					} 
+					}
+                    else
+                        echo "no item was found" ;
 				} 
-				// Display total 
 				echo "<tr>"; 
 				echo "<td colspan='3'>Total:</td>"; 
 				echo "<td>$total $</td>"; 
@@ -120,7 +120,7 @@ echo $user['name']; ?> Shopping Cart</h1>
 	</main> 
 
 	<footer> 
-		<p>&COPY;Group 5 Shopping Web Application</p> 
+		<p>Thanks for shopping with us</p> 
 	</footer> 
 </body> 
 
