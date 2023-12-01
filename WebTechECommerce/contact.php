@@ -64,8 +64,10 @@ if (isset($_POST["send"])) {
         <div class="left">
             <p id="inTouch">Getting In Touch Is Easy!</p>
             <p class="description">Need to reach us? Click the email below or fill out the form on the right.</p>
+            <p class="description">Also Upload your resume if you want to work with us</p>
             <a class="find" href="https://map.concept3d.com/?id=2028">Find Us Here!</a>
-            <p><a class="email" href="mailto:keenan.ray@my.utsa.edu">keenan.ray@my.utsa.edu</a></p>
+            <p><a class="email" href="mailto:keenan.ray@my.utsa.edu">keenan.ray@my.utsa.edu</a></p 
+            
         </div>
         <div class="right">
             <form action="contact.php" method="POST" enctype="multipart/form-data">
