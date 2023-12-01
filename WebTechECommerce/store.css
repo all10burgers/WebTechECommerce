@@ -1,84 +1,80 @@
-body { 
-	margin: 0; 
-	padding: 0; 
-	background-color: beige; 
-	color: beige; 
-	font-family: Arial, sans-serif; 
-} 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Lighter shade for better contrast */
+    font-family: 'Arial', sans-serif;
+}
 
-header { 
-	background-color: white; 
-	color: beige; 
-	padding: 20px; 
-} 
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Center the header text */
+}
 
-nav { 
-	background-color: beige; 
-	padding: 10px; 
-} 
+nav .navbar {
+    margin-bottom: 20px;
+}
 
-nav ul { 
-	list-style: none; 
-	margin: 2px; 
-	padding: 0; 
-} 
-nav a { 
-	color: red; 
-	text-decoration: none; 
-	padding: 2px; 
-	display: flex; 
-	cursor: pointer; 
-} 
+nav .nav-link {
+    color: white;
+}
 
-nav a:hover { 
-	background-color: beige; 
-	color: red; 
-} 
+nav .navbar-nav .nav-item + .nav-item {
+    margin-left: 1rem;
+}
 
-main { 
-	max-width: 1200px; 
-	margin: 0 auto; 
-	padding: 20px; 
-} 
+nav .nav-link:hover {
+    color: #ccc;
+}
 
-section { 
-	margin-bottom: 20px; 
-} 
+main {
+    padding: 20px;
+}
 
-h2 { 
-	font-size: 32px; 
-	margin-top: 0; 
-} 
+section {
+    margin-bottom: 20px;
+}
 
-ul { 
-	list-style: none; 
-	margin: 0; 
-	padding: 0; 
-	display: flex; 
-	flex-wrap: wrap; 
-} 
+/* Utilize Bootstrap's card classes instead */
+.card {
+    margin-bottom: 1rem;
+}
 
-li { 
-	margin-right: 20px; 
-	margin-bottom: 20px; 
-	flex-basis: calc(33.33% - 20px); 
-} 
+.card-title {
+    color: #333; /* Darker text in cards for better readability */
+}
 
-h3 { 
-	font-size: 24px; 
-	margin-top: 0; 
-} 
+.card-text {
+    color: #666; /* Lighter text in cards */
+}
 
-img { 
-	max-width: 200px; 
-	height: 200px; 
-	margin-bottom: 10px; 
-} 
+.card-img-top {
+    max-width: 100%;
+    height: auto; /* Responsive image */
+}
 
-button { 
-	background-color: #333; 
-	color: #fff; 
-	border: none; 
-	padding: 10px; 
-	cursor: pointer; 
+/* No need for custom button styling, Bootstrap's btn classes are used */
+button.btn {
+    display: block; /* Full-width button */
+    width: 100%;
+}
+
+/* Footer with Bootstrap primary color */
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative; /* Position relative for footer at bottom */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive image gallery */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
