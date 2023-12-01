@@ -36,6 +36,8 @@ if (isset($_POST["send"])) {
         }
     }
 
+    
+
     $mailTo = "juskidn2@yahoo.com";
     $headers = "From: " . $email;
     $txt = "You have received an email from " . $name . ".\n\n" . $message . "\n\nResume Path: " . $resumePath;
