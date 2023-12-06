@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             echo '<script type="text/javascript"> 
             window.onload = function () {  
-            window.location.href = "shop.php";  
+            window.location.href = "store.php";  
             }; 
             </script> '; 
   
