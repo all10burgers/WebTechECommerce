@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
                 echo '<script type="text/javascript"> 
     window.onload = function () { 
-        alert("Welcome to GFG shopping website"); 
+        alert("Welcome to G5 shopping website"); 
         window.location.href = "store.php";  
     }; 
     </script> 
