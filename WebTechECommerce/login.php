@@ -36,13 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             session_start(); 
             $_SESSION["user"] = $user; 
   
-                echo '<script type="text/javascript"> 
-    window.onload = function () { 
-        alert("Welcome to G5 shopping website"); 
-        window.location.href = "store.php";  
-    }; 
-    </script> 
-            '; 
+               
     } else { 
             echo "<h2>Login Failed</h2>"; 
             echo "Invalid email or password."; 
