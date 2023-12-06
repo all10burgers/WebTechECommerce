@@ -34,10 +34,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($password, $user["password"])) { 
                 
             session_start(); 
-            $_SESSION["user"] = $user; 
+            $_SESSION["user"] = $user;
+            header("Location: store.php");
+            exit(); 
   
                
-    } else { 
+        } else { 
             echo "<h2>Login Failed</h2>"; 
             echo "Invalid email or password."; 
             } 
