@@ -35,8 +35,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 
             session_start(); 
             $_SESSION["user"] = $user;
-            header("Location: store.php");
-            exit(); 
+            
+            echo '<script type="text/javascript"> 
+            window.onload = function () {  
+            window.location.href = "shop.php";  
+            }; 
+            </script> '; 
   
                
         } else { 
