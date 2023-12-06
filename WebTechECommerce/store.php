@@ -40,6 +40,7 @@ if (isset($_POST["add_to_cart"])) {
                 <li class="nav-item"><a class="nav-link" href="contact.php">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="cart.php">Cart</a></li>
                 <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="email_signup.php">Email Signup</a></li>
             </ul>
         </div>
     </nav>
